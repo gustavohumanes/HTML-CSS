@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Chivo+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+*
+    {
+        font-family: "Bebas Neue";
+    }
+
+body
+    {
+        background-image: linear-gradient(180deg, #0c0e29, #0a0c47);
+        background-attachment: fixed;
+    }
+
+h1
+    {
+        width: 210px;
+        color: white;
+        text-indent: 10px;
+        text-shadow: rgb(0, 97, 97);
+        text-align: left;
+    }
+
+li
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+    .Destaque
+    {
+        color: #0c0e29;
+        background-color: #00d3be;;
+        border-radius: 10px;
+        padding: 2px;
+    }
+
+    .Menu
+    {
+        color: #ececec;
+        font-weight: bold;
+        display: inline-block;
+        font-family: "Chivo Mono", monospace;
+    }
+
+    .Menu:hover
+    {
+        color: rgb(255, 255, 255);
+    }
+
+    .Menu > ul
+    {
+        display: none;
+    }
+
+    .Menu:hover > ul
+    {
+        display: block;
+    }
+
+    a
+    {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    a:hover
+    {
+        color: blue;
+    }

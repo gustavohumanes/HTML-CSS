@@ -1,0 +1,26 @@
+body
+    {
+        background-color: rgb(31, 31, 31);
+    }
+#dov
+    {
+        display: flex;
+        justify-content: center;
+    }
+#dov2
+    {
+        font-size: larger;
+        text-align: center;
+        color: white;
+        font-family: cursive;
+    }
+#dov3
+    {
+        display: flex;
+        justify-content:center
+    }
+#dov4
+    {
+        border-color: white;
+        border-style:dotted;
+    }

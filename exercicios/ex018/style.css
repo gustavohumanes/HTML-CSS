@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+@font-face {
+    font-family: "Oldlondon" ;
+    src: url(Fontes/OldLondon.ttf) format(truetype), url(Fontes/Olondon_.otf) format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+body
+    {
+        background-color: black;
+        color: white;
+    }
+
+h1, p
+    {
+        font-family: "OldLondon", sans-serif;
+        font-size: 75px;
+    }

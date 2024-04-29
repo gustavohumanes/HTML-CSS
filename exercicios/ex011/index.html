@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes, ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    
+    <picture>
+        <source media="(max-width: 725px)" srcset="imagens/imagempequena.png" type="image/png">
+        <source media="(max-width: 1025px)" srcset="imagens/imagemmedia.png" type="image/png">
+        <img src="imagens/imagemgrande.png" alt="Imagem fléxivel">
+    </picture>
+    
+    <h1>Metódo básico para colocar aúdio</h1>
+    <audio src="mídia/HiddenInTheSand.mp3" controls></audio>
+    <h1>Metódo para maior compatibilidade</h1>
+
+    <audio preload="auto" controls loop>
+        <source src="mídia/HiddenInTheSand.mp3" type="audio/mpeg">
+        <source src="mídia/HiddenInTheSand.mp3" type="audio/ogg">
+        <source src="mídia/HiddenInTheSand.mp3" type="audio/mp3">
+        <p>Infelizmente seu navegador não possibilita a expressão do arquivo de aúdio, para baixa-lo, <a href="mídia/spotifydown.com - Hidden
+            In the Sand.mp3">clique aqui!</a></p>
+        <!--Suponha que eu tenha o aúdio nesses formatos acima, assim dependendo do navegador do usuário, o audio será convertido em um dos    seguintes acima, caso o arquivo não consiga ser baixado será expresso a mensagem.-->
+    </audio>
+    <p>Infelizmente seu navegador não possibilita a expressão do arquivo de aúdio, para baixa-lo, <a href="mídia/HiddenInTheSand.mp3" download="mídia/HiddenInTheSand.mp3" target="_blank" type="audio/mp3">clique aqui!</a></p>
+</body>
+</html>
