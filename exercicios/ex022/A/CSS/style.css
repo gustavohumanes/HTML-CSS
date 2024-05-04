@@ -1,0 +1,28 @@
+body
+{
+    background-image: url(../imagens/wallpaper001.jpg);
+}
+
+div.Quadrado
+{
+    display: inline-block;
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: lightgray;
+}
+
+div#Div1{
+    background-color: aqua;
+}
+
+div#Div2
+{
+    background-image: linear-gradient(to bottom, yellow, red);
+}
+
+div#Div3
+{
+    background-image: url(../imagens/pattern003.png);
+}
