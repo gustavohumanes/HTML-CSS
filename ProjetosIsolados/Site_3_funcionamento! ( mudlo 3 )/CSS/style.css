@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root
+{
+    /* Variables Fonts*/
+    --Fontes_Destaque: "Bebas Neue" "Arial", sans-serif;
+    --Fonte_Normal: Arial, Helvetica, sans-serif;
+    --Fonte_Pequena: "Kanit", sans-serif;
+
+    /* Colors*/
+    --Color0: #2373CF;
+    --Color1: #376AA5;
+    --Color2: #0175FA;
+    --Color3: #3D5A7A;
+    --Color4: #354250;
+    --Color5: #2B2E33;
+}
+
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background: #3D5A7A url(https://img.freepik.com/vetores-gratis/fundo-geometrico-gradiente_23-2148828429.jpg) center center/cover no-repeat fixed;
+    color: white;
+}
+
+#Container
+{
+    margin: auto;
+    min-width: 280px;
+    max-width: 800px;
+}
+#Image1
+{
+    background-image: url(../../../../../Fotos_Para_Trabalho/2455774-peixe-palhaco-ocellaris-no-aquario-gratis-foto.jpg);
+    border-style: dashed;
+    width: 33vh;
+    height: 33vh;
+    display: inline-block;
+}
+#Image2
+{
+    background-image: url(../../../../../Fotos_Para_Trabalho/841a3595-1d56-4047-9023-25999eb9a69c.jpeg);
+    border-style: dashed;
+    width: 33vh;
+    height: 33vh;
+    display: inline-block;
+}
+#Image3
+{
+    background-image: url(../../../../../Fotos_Para_Trabalho/download.jpeg);
+    border-style: dashed;
+    width: 33vh;
+    height: 33vh;
+    display: inline-block;
+}
+
+#Image4
+{
+    background-image: url(../../../../../Fotos_Para_Trabalho/gettyimages-638862028-612x612.jpg);
+    border-style: dashed;
+    width: 33vh;
+    height: 33vh;
+    display: inline-block;
+}
+
+header
+{
+    background-color: #354250a8;
+    border-radius: 15px;
+    
+}
+
+header p, h1
+{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+main
+{
+    background-image: linear-gradient(45deg, #3d5a7ab9, #0175fa6b);
+    border-radius: 15px;
+    padding: 5px;
+    margin: 10px;
+}
+
+main h1
+{
+    padding: 10px;
+    margin: auto;
+    text-align: left;
+    max-width: 800px;
+}
+
+main h2
+{
+    padding: 10px;
+    text-align: left;
+    max-width: 800px;
+}
+
+main p
+{
+    padding: 10px;
+    text-align: justify;
+    max-width: 800px;
+}
+
+footer
+{
+    background-color: #376aa533;
+}
