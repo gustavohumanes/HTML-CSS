@@ -1,0 +1,17 @@
+#Container
+{
+    position: relative;
+    background-color: yellow;
+    height: 500px;
+    padding: 5px;
+}
+#Conteudo
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: blue;
+    width: 400px;
+    height: 200px;
+    transform: translate(-50%, -50%); /*O translate serve para modificar o pivô do quadrado, que normalmente é na ponta esquerda superior, para o meio do mesmo, resultando na centralização da div*/ 
+}
