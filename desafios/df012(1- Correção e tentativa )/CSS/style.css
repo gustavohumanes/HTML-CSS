@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+header
+{
+    padding: 50px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    background-color: black;
+}
+
+header h1
+{
+    font-size: 3em;
+    text-transform: uppercase;
+}
+
+header a
+{
+    color: white;
+    text-decoration: none;
+    border-bottom: 3px solid white;
+}
+
+header a:hover
+{
+    color: rgb(129, 230, 255);
+    text-decoration: none;
+    border-bottom: 3px solid rgb(129, 230, 255);
+}
+
+
+pre
+{
+    white-space: pre-line;
+    font-size: 1.5em;
+}
+
+section div.DivImage
+{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.205);
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+section div.DivNoImage
+{
+    margin: 30px;
+    color: rgb(0, 0, 0);
+    width: 370px;
+}
+
+#Imagem1
+{
+    background: black url(../Midia/imagens/background001.jpg) top center/cover no-repeat fixed;
+    padding: 30px;
+}
+
+#Imagem2
+{
+    background: black url(../Midia/imagens/background002.jpg) top center/cover no-repeat fixed;
+    padding: 30px;
+}
+
+footer
+{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+footer a
+{
+    color: rgb(192, 237, 255);
+}
+
+footer a:hover
+{
+    color: rgb(128, 219, 255);
+}
