@@ -16,10 +16,10 @@
     </picture>
     
     <h1>Metódo básico para colocar aúdio</h1>
-    <audio src="mídia/HiddenInTheSand.mp3" controls></audio>
+    <audio autoplay src="mídia/HiddenInTheSand.mp3"></audio>
     <h1>Metódo para maior compatibilidade</h1>
 
-    <audio preload="auto" controls loop>
+    <audio autoplay preload="auto" controls loop>
         <source src="mídia/HiddenInTheSand.mp3" type="audio/mpeg">
         <source src="mídia/HiddenInTheSand.mp3" type="audio/ogg">
         <source src="mídia/HiddenInTheSand.mp3" type="audio/mp3">
@@ -28,5 +28,6 @@
         <!--Suponha que eu tenha o aúdio nesses formatos acima, assim dependendo do navegador do usuário, o audio será convertido em um dos    seguintes acima, caso o arquivo não consiga ser baixado será expresso a mensagem.-->
     </audio>
     <p>Infelizmente seu navegador não possibilita a expressão do arquivo de aúdio, para baixa-lo, <a href="mídia/HiddenInTheSand.mp3" download="mídia/HiddenInTheSand.mp3" target="_blank" type="audio/mp3">clique aqui!</a></p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/OIYWA1GwCEs?si=e3dJrwQBH-QfkP5i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </body>
 </html>
