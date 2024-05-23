@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face
+{
+    font-family: "Android";
+    src: url(../Midia/fontes/idroid.otf) format("opentype");
+    font-weight: normal;
+}
+:root
+{
+    /* Site_Text-Colors*/
+    --Textcor0: #ebe5c5;
+    --Textcor1: #83e1ad;
+    --Textcor2: #3ddc84;
+    --Textcor3: #2fa866;
+    --Textcor4: #1a5c37;
+    --Textcor5: #063d1e;
+    /* Site_link-Colors */
+    /* no hover */
+    --Linkcor0: rgb(0, 0, 255);
+    --Linkcor1: rgb(0, 102, 255);
+    --Linkcor2: rgba(0, 255, 255, 0.377);
+    --Linkcor3: rgb(0, 255, 255);
+    /* With hover */
+    --LinkcorWithHover0: rgb(0, 0, 165);
+    --LinkcorWithHover1: rgb(0, 52, 205);
+    --LinkcorWithHover2: rgba(0, 205, 205, 0.477);
+    /* Site_Fonts */
+    --font-Android: "Android", "sans-serif";
+    --font-destaque: "Bebas Neue", sans-serif;
+    --font-padrao: Arial, verdana, Helvetica, sans-serif;
+}
+
+/*-------------GLOBAL-------------*/
+
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+body
+{
+    background-color: rgb(64, 63, 90);
+}
+
+header
+{
+    background-image: linear-gradient(to bottom, #000a5f, #000429);
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    font-family: var(--font-destaque);
+}
+
+header h1
+{
+    color: rgb(83, 86, 255);
+}
+
+header p
+{
+    color: rgb(153, 146, 255);
+}
+
+header nav
+{
+    text-align: left;
+    padding: 2px;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+main
+{
+    background-color: rgb(42, 53, 73);
+    max-width: 800px;
+    margin: auto;
+    color: rgb(97, 121, 187);
+    padding: 25px;
+}
+
+main strong
+{
+    color: rgb(147, 206, 255);
+}
+
+main a
+{
+    text-decoration: none;
+    border-bottom: 1px solid rgb(64, 141, 255);
+    color: rgb(53, 208, 255);
+}
+
+main h1, h2, h3
+{
+    color: rgb(83, 86, 255);
+    padding: 5px 5px;
+    border-radius: 15px;
+    background-image: linear-gradient(to right, rgba(0, 0, 255, 0.301), rgba(0, 0, 109, 0));
+}
+
+
+picture img
+{
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+.ImageLittle
+{
+    display: flex;
+    width: 50%;
+}
+
+iframe 
+{
+    display: flex;
+    margin: auto;
+}
+
+main p
+{
+    padding: 15px 0px;
+}
+
+aside
+{
+    background-color:rgba(36, 0, 197, 0.062);
+    padding: 10px;
+    border-radius: 15px 15px 0px 0px;
+    list-style: inside;
+}
+
+ul
+{
+    column-count: 2;
+}
+
+footer
+{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+}
+
+footer a
+{
+    text-decoration: none;
+    border-bottom: 3px solid rgb(64, 141, 255);
+    color: rgb(64, 141, 255);
+}
