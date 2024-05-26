@@ -118,20 +118,41 @@ picture img
 
 div.Video
 {
-    background-color: #1a5c37;
-    margin: 0px -24.3px 30px -20px;
-    padding: 20px;
-    padding-bottom: 50%;
     position: relative;
+    padding-bottom: 50%;
 }
 
 div.Video > iframe
 {
     position: absolute;
-    top: 5%;
     left: 5%;
+    top: 5%;
     width: 90%;
     height: 90%;
+}
+
+p #Paralax1
+{
+    display: block;
+    background: red url(https://i.pinimg.com/736x/78/d9/6a/78d96aee53fbd6b6afba38a029070e25.jpg) center center/cover fixed no-repeat;
+}
+
+p#Paralax2
+{
+    display: block;
+    background: red url(https://pbs.twimg.com/profile_images/1443182108919353352/5mCiFyAV_400x400.jpg) center center/cover fixed no-repeat;
+}
+
+p#Paralax3
+{
+    display: block;
+    background: red url(https://pbs.twimg.com/media/F-wC6e4XMAAA8xA.jpg:large) center center/cover fixed no-repeat;
+}
+
+p#Paralax4
+{
+    display: block;
+    background: red url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR40vKOKE_IW32Z9D5WFU82Rcf8G7V5ghqsxw89E9o3Iw&s) center center/cover fixed no-repeat;
 }
 
 main p
@@ -158,7 +179,7 @@ footer
     color: white;
     padding: 10px;
     text-align: center;
-    margin: auto;
+    margin: 900px auto 0px auto;
 }
 
 footer a
