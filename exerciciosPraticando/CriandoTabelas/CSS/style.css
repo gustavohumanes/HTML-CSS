@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+table
+{
+    border-collapse: collapse;
+    width: 300px;
+    height: 150px;
+}
+
+tr
+{
+
+}
+
+td
+{
+    padding: 10px;
+    font-size: 50px;
+    text-align: center;
+    border: 2px solid black;
+}
