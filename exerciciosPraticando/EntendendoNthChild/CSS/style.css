@@ -1,0 +1,24 @@
+html
+{
+    font-family: sans-serif;
+}
+
+span,
+div em {
+    padding: 5px;
+    border: 1px solid green;
+    display: inline-block;
+    margin-bottom: 3px;
+}
+
+.primeiro span:nth-child(2n + 1){
+    background-color: lime;
+}
+
+.segundo span:nth-child(2n + 1){
+    background-color: lime;
+}
+
+.terceiro span:nth-of-type(2n + 1) {
+    background-color: lime;
+}
