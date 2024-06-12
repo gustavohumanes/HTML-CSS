@@ -1,0 +1,33 @@
+html
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table
+{
+    width: 500px;
+    border-collapse: collapse;
+}
+
+caption
+{
+    font-size: 1.3em;
+    font-weight: bolder;
+    padding: 8px;
+}
+
+th, td
+{
+    border: 1px solid black;
+    padding: 8px;
+}
+
+col.Cnome
+{
+    background-color: rgb(172, 172, 172);
+}
+
+col.Cprof
+{
+    background-color: pink;
+}
