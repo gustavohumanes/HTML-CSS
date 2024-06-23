@@ -1,0 +1,19 @@
+#Container
+{
+    background-color: black;
+    max-width: 280px;
+    height: 50vw;
+    max-width: 1280px;
+    position: relative;
+}
+
+#Content
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: purple;
+    width: 250px;
+    height: 250px;
+    transform: translate(-50%, -50%);
+}
