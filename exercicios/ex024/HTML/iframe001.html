@@ -4,37 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estudo de iframes</title>
-    </style>
+    <link rel="stylesheet" href="../CSS/style.css">
 </head>
 <body>
-    <h1>Testando o uso de um iframe</h1>
-    Acessando o site do
+    <h1>Aprendendo sobre iframe</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas eligendi libero ipsa ea laborum ratione, provident molestias quas sequi itaque assumenda tempore vel distinctio dolorem quam, nisi aperiam deserunt debitis!</p>
 
+    <iframe src="../../ex023/Tabela006/HTML/index.html" frameborder="0" height="595"
+    width="400"></iframe>
 
-    <div>
-        <iframe id="iframe" src="https://www.google.com.br" frameborder="0" style="display: inline;">
-        </iframe>
-
-        <p id="TextError" style="display: none;">[ O iframe não pode ser carregado]</p>
-
-    </div>
-
-    <script>
-        var GoogleIframe = document.getElementById('iframe');
-        var TextError = document.getElementById('TextError')
-
-        var GoogleIframeCarregado = GoogleIframe.onerror
-
-
-        if(GoogleIframeCarregado === true)
-        {
-            GoogleIframe.style.display = 'inline'
-        }
-        else if(GoogleIframeCarregado === false)
-        {
-            GoogleIframe.style.display = 'none'
-            TextError.style.display = 'inline'
-        }
-    </script>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae necessitatibus, nostrum possimus velit rem, voluptatibus, accusantium esse numquam repellendus neque natus id non modi aliquam distinctio ratione recusandae quia dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius reprehenderit minus quo iusto deleniti velit suscipit commodi voluptatibus hic sunt? Recusandae fuga autem quidem quaerat quae animi molestiae repellendus in!
+    </p>
 </body>
 </html>

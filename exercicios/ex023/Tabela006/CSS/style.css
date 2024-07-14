@@ -6,6 +6,7 @@ html
 table
 {
     border-collapse: collapse;
+    position: relative;
 }
 
 caption
@@ -29,6 +30,6 @@ tr:nth-child(even)
 
 div#Container
 {
-    width: 52.1vw;
+    width: 70.1vw;
     overflow-x: auto;
 }
