@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Formulário</title>
+</head>
+<body>
+    <h1>Teste de Formulário</h1>
+    <form action="../PYTHON/cadastro.py" method="post" autocomplete="off">
+        <p>
+            <label for="Iusu">Usúario:</label>
+            <input type="text" name="usu" id="Isu" required maxlength="15" minlength="5" placeholder="Nome do usúario" autocomplete="username" size="11">
+        </p>
+        <p>
+            <label for="Isen">Senha:</label>
+            <input type="password" name="password" id="Isen" required minlength="8" maxlength="30" placeholder="Senha do usúario" size="12">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
