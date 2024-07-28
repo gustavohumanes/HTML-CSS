@@ -17,8 +17,46 @@
             <input type="password" name="password" id="Isen" required minlength="8" maxlength="30" placeholder="Senha do usúario" size="12">
         </p>
         <p>
+            <label for="Inum">Telefone:</label>
+            <input type="tel" name="num" id="Inum" autocomplete="tel" pattern="^[0-9]{4}-[0-9]{4}$">
+        </p>
+        <p>
             <input type="submit" value="Enviar">
             <input type="reset" value="Limpar">
+        </p>
+    </form>
+    <h1> Select, datalist e textarea em HTML </h1>
+    <form action="">
+        <p>
+            <label for="Iest">Estado</label>
+            <select name="est" id="Iest">
+
+                <option value="0" selected>Escolha</option>
+                <optgroup label="Principais">
+                    <option value="a">a</option>
+                    <option value="b">b</option>
+                    <option value="c">c</option>
+                    <option value="d">d</option>
+                </optgroup>
+
+                <optgroup label="Secundários">
+                    <option value="e">e</option>
+                    <option value="f">f</option>
+                    <option value="g">g</option>
+                    <option value="h">h</option>
+                </optgroup>
+            </select>
+        </p>
+
+        <p>
+            <label for="Iprof">Profissão:</label>
+            <input type="text" name="prof" id="Iprof" list="Profes">
+            <datalist id="Profes">
+                <option value="ADM">Adm</option>
+                <option value="DEV">Desenvolvedor</option>
+                <option value="STAFF">Staff</option>
+                <option value="VIP">Vip</option>
+            </datalist>
         </p>
     </form>
 </body>
