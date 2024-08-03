@@ -2,6 +2,22 @@
 
 /* Versão Mobile First*/
 
-@media print {
-    
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
+
+body, html
+{
+    width: 100vw; /* vW = view width*/
+    height: 100vh;/* vH = view heigh*/
+}
+
+img#Phone{ display: none;}
+img#Tablet{ display: none;}
+img#Print{ display: none;}
+img#Pc{ display: none;}
+img#Tv{ display: none;}

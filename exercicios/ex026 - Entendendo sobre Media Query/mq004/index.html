@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <p>
+            <span id="Navigation" class="material-symbols-outlined" onclick="OpenMenu()">menu</span>
+            <span id="Closer" class="material-symbols-outlined" onclick="CloseMenu()">close</span>
+        </p>
+        <menu id="Options">
+            <ul>
+                <li><a href="">Opção 1</a></li>
+                <li><a href="">Opção 2</a></li>
+                <li><a href="">Opção 3</a></li>
+                <li><a href="">Opção 4</a></li>
+                <li><a href="">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, ut impedit? Veniam aliquam qui quo iusto saepe, dicta perspiciatis, cumque in deserunt fuga libero quod? Cum saepe veniam facilis illum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit voluptates eos error necessitatibus culpa excepturi aperiam itaque quis quae reprehenderit temporibus, officiis facilis ullam autem perferendis non sequi ut facere. Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi vel dicta eum aperiam laboriosam officia nostrum, aliquam quasi culpa nesciunt minima eius eos nulla provident veniam perferendis enim eaque praesentium!</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, ut impedit? Veniam aliquam qui quo iusto saepe, dicta perspiciatis, cumque in deserunt fuga libero quod? Cum saepe veniam facilis illum! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti sit harum architecto minus itaque deserunt repellat reprehenderit numquam vero consequuntur placeat hic dignissimos voluptas, quia laborum cupiditate corporis quas fugiat. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto blanditiis rem sint necessitatibus laboriosam autem distinctio, magnam, pariatur voluptatem quaerat nostrum. Quibusdam soluta sequi voluptates vitae doloribus. Possimus, fuga neque!</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, ut impedit? Veniam aliquam qui quo iusto saepe, dicta perspiciatis, cumque in deserunt fuga libero quod? Cum saepe veniam facilis illum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit voluptates eos error necessitatibus culpa excepturi aperiam itaque quis quae reprehenderit temporibus, officiis facilis ullam autem perferendis non sequi ut facere.</p>
+        </article>
+    </main>
+    <script>
+        function OpenMenu(){
+            var Options = window.document.getElementById('Options')
+            var Closer = window.document.getElementById('Closer')
+            Options.style.display = "block"
+            Closer.style.display = "inline-block"
+        }
+
+        function CloseMenu()
+        {
+            var Options = window.document.getElementById('Options')
+            var Closer = window.document.getElementById('Closer')
+            Options.style.display = "none"
+            Closer.style.display = "none"
+        }
+    </script>
+</body>
+</html>

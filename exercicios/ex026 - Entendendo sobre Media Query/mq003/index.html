@@ -4,17 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Query</title>
+<!--
+    Pequenas telas: i <- 600px
+    Celular: 600px -> 768px
+    Tablet: 768px -> 992px
+    Desktop: 992px -> 1200px
+    Grandes telas: 1200px -> i
+-->
     <link rel="stylesheet" href="CSS/style.css" media="all">
-    <link rel="stylesheet" href="CSS/media-query.css">
+    <link rel="stylesheet" href="=CSS/impress.css" media="print">
+    <link rel="stylesheet" href="CSS/Little_Device.css" media="screen and (min-width:600px)">
+    <link rel="stylesheet" href="CSS/Tablet.css" media="screen and (min-width:768px)">
+    <link rel="stylesheet" href="CSS/Desktop.css" media="screen and (min-width:992px)">
+    <link rel="stylesheet" href="CSS/Large_Device.css" media="screen and (min-width:1200px)">
 </head>
 <body>
     <main>
         <h1>Testando Media Queries</h1>
         <img id="Phone" src="imagens/icon-phone.png" alt="Versão para Smartphone">
 
-        <img id="Tablet" src="imagens/icon-print.png" alt="Versão para Impressora">
+        <img id="Print" src="imagens/icon-print.png" alt="Versão para Impressora">
 
-        <img id="Print" src="imagens/icon-tablet.png" alt="Versão para Tablet">
+        <img id="Tablet" src="imagens/icon-tablet.png" alt="Versão para Tablet">
 
         <img id="Pc" src="imagens/icon-pc.png" alt="Versão para desktop">
 
